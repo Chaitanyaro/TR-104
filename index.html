@@ -1,165 +1,191 @@
-<!-- Daily Diary Section -->
-<section class="bg-white rounded-xl shadow-lg p-6 md:p-10 mb-8">
-  <h2 class="text-2xl font-semibold text-blue-600 mb-6">
-    Daily Diary Entries (180 Days Overview)
-  </h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TR-104 Industrial Training Daily Diary</title>
 
-  <div class="space-y-4">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Phase 1 -->
-    <details class="border rounded-lg p-5">
-      <summary class="cursor-pointer text-lg font-semibold text-gray-700">
-        Days 1–15 : Introduction to Data Analytics & Decision Making
-      </summary>
-      <div class="mt-4 space-y-3 text-justify">
-        <p>
-          During the initial phase of training, the focus was on understanding the
-          fundamentals of data analytics and the professional role of a data analyst.
-          The learning included the responsibilities of data collection, cleaning,
-          analysis, and interpretation to support business decisions.
-        </p>
-        <p>
-          Special emphasis was placed on how organizations like Netflix and Amazon Prime
-          use data to understand customer behavior, content performance, and market trends.
-          Various real-world case studies were discussed to understand data-driven
-          decision-making.
-        </p>
-        <p>
-          By the end of this phase, a strong conceptual foundation was built regarding
-          analytical thinking, problem identification, and the importance of accurate data.
-        </p>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    summary::-webkit-details-marker { display: none; }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-slate-100 via-gray-100 to-slate-200 text-gray-800">
+
+  <div class="max-w-6xl mx-auto p-4 md:p-10">
+
+    <!-- Cover -->
+    <section class="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-10 border-t-8 border-blue-600">
+      <h1 class="text-4xl font-bold text-center text-blue-700 tracking-wide">
+        TR-104 Daily Diary
+      </h1>
+      <p class="text-center mt-3 text-lg font-medium text-gray-600">
+        Six Months Industrial Training
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-8 mt-10 text-sm md:text-base">
+        <div class="space-y-2">
+          <p><span class="font-semibold">Student Name:</span> Chaitanya Arora</p>
+          <p><span class="font-semibold">University Roll No:</span> 2203414</p>
+          <p><span class="font-semibold">Branch:</span> Computer Science Engineering</p>
+        </div>
+        <div class="space-y-2">
+          <p><span class="font-semibold">Training Organization:</span> ThinkNEXT Technologies Pvt. Ltd.</p>
+          <p><span class="font-semibold">Training Duration:</span> Six Months</p>
+          <p><span class="font-semibold">Training Code:</span> TR-104</p>
+        </div>
       </div>
-    </details>
+    </section>
 
-    <!-- Phase 2 -->
-    <details class="border rounded-lg p-5">
-      <summary class="cursor-pointer text-lg font-semibold text-gray-700">
-        Days 16–30 : Data Collection, Types of Data & Preparation
-      </summary>
-      <div class="mt-4 space-y-3 text-justify">
-        <p>
-          This phase focused on understanding structured, semi-structured, and unstructured
-          data. Practical examples included CSV files, Excel sheets, JSON datasets, and
-          OTT platform content metadata.
-        </p>
-        <p>
-          Learned multiple data collection methods such as surveys, web data extraction,
-          and open datasets. Data preparation techniques like removing duplicates,
-          handling missing values, and standardizing formats were practiced using Excel.
-        </p>
-        <p>
-          These skills later became essential for preparing Netflix, Prime Video, and
-          Hotstar datasets before importing them into Power BI.
-        </p>
-      </div>
-    </details>
+    <!-- Overview -->
+    <section class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-10">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">Training Overview</h2>
+      <p class="leading-relaxed text-justify">
+        The primary objective of this six months industrial training was to gain
+        comprehensive hands-on exposure to <span class="font-semibold">Data Analytics
+        and Business Intelligence</span> by developing an interactive dashboard using
+        <span class="font-semibold">Microsoft Power BI</span>.
+      </p>
+      <p class="leading-relaxed text-justify mt-4">
+        The project focused on analyzing content datasets from
+        <span class="font-semibold">Netflix, Amazon Prime Video, and Hotstar</span>
+        to understand content trends, genre distributions, and release patterns.
+      </p>
+    </section>
 
-    <!-- Phase 3 -->
-    <details class="border rounded-lg p-5">
-      <summary class="cursor-pointer text-lg font-semibold text-gray-700">
-        Days 31–60 : Python Basics for Data Analysis
-      </summary>
-      <div class="mt-4 space-y-3 text-justify">
-        <p>
-          This phase introduced Python programming fundamentals including syntax,
-          variables, data types, conditional statements, loops, and functions.
-          Practical exercises were performed to strengthen logical thinking.
-        </p>
-        <p>
-          Concepts such as lists, dictionaries, tuples, sets, and list comprehensions
-          were covered to understand data structures used in analytics workflows.
-        </p>
-        <p>
-          Python was used for small-scale data manipulation tasks, reinforcing how
-          scripting supports automation in data analysis projects.
-        </p>
-      </div>
-    </details>
+    <!-- Objectives -->
+    <section class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-10">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">Objectives of Training</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Understand the fundamentals of data analytics and BI tools.</li>
+        <li>Learn data cleaning, transformation, and modeling techniques.</li>
+        <li>Analyze OTT content datasets using Excel and Power BI.</li>
+        <li>Design interactive dashboards for business insights.</li>
+        <li>Apply analytical thinking to real-world datasets.</li>
+      </ul>
+    </section>
 
-    <!-- Phase 4 -->
-    <details class="border rounded-lg p-5">
-      <summary class="cursor-pointer text-lg font-semibold text-gray-700">
-        Days 61–90 : Excel for Data Analysis & Reporting
-      </summary>
-      <div class="mt-4 space-y-3 text-justify">
-        <p>
-          In this phase, Excel was used extensively for data analysis. Functions such as
-          VLOOKUP, XLOOKUP, IF, COUNTIFS, SUMIFS, and TEXT functions were practiced.
-        </p>
-        <p>
-          Pivot Tables and Pivot Charts were created to summarize large datasets and
-          identify trends in OTT content such as genre distribution and release years.
-        </p>
-        <p>
-          Excel acted as the primary preprocessing tool before importing refined data
-          into Power BI for dashboard creation.
-        </p>
-      </div>
-    </details>
+    <!-- Diary -->
+    <section class="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-10">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-6">
+        Daily Diary Entries (180 Days Summary)
+      </h2>
 
-    <!-- Phase 5 -->
-    <details class="border rounded-lg p-5">
-      <summary class="cursor-pointer text-lg font-semibold text-gray-700">
-        Days 91–120 : Power BI Fundamentals & Data Modeling
-      </summary>
-      <div class="mt-4 space-y-3 text-justify">
-        <p>
-          This phase marked the transition to Power BI. Learned Power BI interface,
-          data import methods, relationships, and data modeling concepts.
-        </p>
-        <p>
-          Multiple datasets from Netflix, Amazon Prime, and Hotstar were connected and
-          transformed using Power Query Editor.
-        </p>
-        <p>
-          Basic DAX functions were introduced to create calculated columns and measures
-          required for meaningful analysis.
-        </p>
-      </div>
-    </details>
+      <div class="space-y-4">
 
-    <!-- Phase 6 -->
-    <details class="border rounded-lg p-5">
-      <summary class="cursor-pointer text-lg font-semibold text-gray-700">
-        Days 121–150 : Dashboard Design & Visualization
-      </summary>
-      <div class="mt-4 space-y-3 text-justify">
-        <p>
-          This phase focused on designing interactive dashboards using charts, cards,
-          slicers, and filters. Best practices for layout, color selection, and
-          readability were followed.
-        </p>
-        <p>
-          Separate visuals were created for content type comparison, genre-wise
-          distribution, and release year trends across platforms.
-        </p>
-        <p>
-          Drill-down and cross-filtering features were implemented to improve user
-          interaction and analytical depth.
-        </p>
-      </div>
-    </details>
+        <!-- Phase Card -->
+        <details class="group border rounded-xl p-6 transition hover:shadow-md">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <span class="text-lg font-semibold">Days 1–15 : Introduction to Data Analytics</span>
+            <span class="group-open:rotate-180 transition">⌄</span>
+          </summary>
+          <div class="mt-4 text-justify space-y-3 text-gray-700">
+            <p>
+              This phase introduced the fundamentals of data analytics, analytical thinking,
+              and the responsibilities of a data analyst in modern organizations.
+            </p>
+            <p>
+              Case studies of Netflix and other OTT platforms demonstrated how data-driven
+              decisions influence content recommendations and user engagement.
+            </p>
+          </div>
+        </details>
 
-    <!-- Phase 7 -->
-    <details class="border rounded-lg p-5">
-      <summary class="cursor-pointer text-lg font-semibold text-gray-700">
-        Days 151–180 : Final Project Implementation & Review
-      </summary>
-      <div class="mt-4 space-y-3 text-justify">
-        <p>
-          The final phase involved refining the OTT dashboard, validating insights,
-          and optimizing performance. Multiple revisions were made based on feedback.
-        </p>
-        <p>
-          The completed dashboard effectively compared Netflix, Amazon Prime Video,
-          and Hotstar using interactive visual analytics.
-        </p>
-        <p>
-          This phase concluded with documentation, project presentation, and a review
-          of skills gained during the six months industrial training.
-        </p>
+        <details class="group border rounded-xl p-6 transition hover:shadow-md">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <span class="text-lg font-semibold">Days 16–30 : Data Collection & Preparation</span>
+            <span class="group-open:rotate-180 transition">⌄</span>
+          </summary>
+          <div class="mt-4 text-justify space-y-3">
+            <p>
+              Learned structured and unstructured data concepts along with real-world
+              datasets related to OTT platforms.
+            </p>
+            <p>
+              Data cleaning techniques using Excel ensured high-quality datasets for
+              further analysis.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border rounded-xl p-6 transition hover:shadow-md">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <span class="text-lg font-semibold">Days 31–60 : Python for Data Analysis</span>
+            <span class="group-open:rotate-180 transition">⌄</span>
+          </summary>
+          <div class="mt-4 text-justify space-y-3">
+            <p>
+              Python programming basics, control structures, and data structures were
+              covered to strengthen analytical logic.
+            </p>
+            <p>
+              Python was applied to small datasets to understand preprocessing workflows.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border rounded-xl p-6 transition hover:shadow-md">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <span class="text-lg font-semibold">Days 61–90 : Excel & Pivot Analysis</span>
+            <span class="group-open:rotate-180 transition">⌄</span>
+          </summary>
+          <div class="mt-4 text-justify space-y-3">
+            <p>
+              Advanced Excel functions and Pivot Tables were used to analyze genre and
+              platform-based content trends.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border rounded-xl p-6 transition hover:shadow-md">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <span class="text-lg font-semibold">Days 91–150 : Power BI Dashboard Development</span>
+            <span class="group-open:rotate-180 transition">⌄</span>
+          </summary>
+          <div class="mt-4 text-justify space-y-3">
+            <p>
+              Power BI was used for data modeling, DAX calculations, and creating interactive
+              visuals.
+            </p>
+            <p>
+              Dashboards were designed to compare Netflix, Prime Video, and Hotstar.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border rounded-xl p-6 transition hover:shadow-md">
+          <summary class="flex justify-between items-center cursor-pointer">
+            <span class="text-lg font-semibold">Days 151–180 : Final Project & Documentation</span>
+            <span class="group-open:rotate-180 transition">⌄</span>
+          </summary>
+          <div class="mt-4 text-justify space-y-3">
+            <p>
+              Final refinement, validation of insights, and documentation of the OTT
+              dashboard project were completed.
+            </p>
+            <p>
+              This phase concluded the six months industrial training successfully.
+            </p>
+          </div>
+        </details>
+
       </div>
-    </details>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-600 mt-12">
+      <p class="font-medium">TR-104 Industrial Training Daily Diary</p>
+      <p>Data Analytics & Power BI – OTT Dashboard Project</p>
+    </footer>
 
   </div>
-</section>
+
+</body>
+</html>
